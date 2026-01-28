@@ -13,6 +13,11 @@
 
 <a href="simulateur.html">👉 Accéder au simulateur</a>
 
+
+
+
+
+
 </body>
 </html>
 const cartes = [
@@ -53,3 +58,27 @@ function analyserMain(cartes) {
 
   return "Carte haute";
 }
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulateur de Poker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>🎮 Simulateur de main</h2>
+
+<button onclick="distribuer()">Distribuer une main</button>
+
+<h3>Ta main :</h3>
+<p id="main"></p>
+
+<h3>Board :</h3>
+<p id="board"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
+
